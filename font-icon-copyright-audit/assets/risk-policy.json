@@ -1,0 +1,18 @@
+{
+  "id": "user-font-triage-v1",
+  "label": "用户指定的字体内部核查优先级",
+  "purpose": "优先核查，不是侵权认定；与字体识别和实际授权结论独立",
+  "force_high": [
+    {"vendor": "方正", "contains": ["方正"], "prefixes": ["FZ"], "prefix_note": "拉丁前缀需元数据核对，不对文字摘录或文件名匹配"},
+    {"vendor": "汉仪", "contains": ["汉仪", "漢儀"], "prefixes": ["HY"], "prefix_note": "拉丁前缀需元数据核对，不对文字摘录或文件名匹配"}
+  ],
+  "western_monotype_names": ["Arial", "Arial Unicode MS"],
+  "western_monotype_candidates": ["Swis721 Blk BT"],
+  "western_names_scope": "已研究名称及别名线索，不是全字库清单。新名称逐款查证，别名与具体版本仍需确认。",
+  "sources": [
+    {"font": "Arial", "url": "https://www.myfonts.com/collections/arial-font-monotype-imaging", "last_checked": "2026-10-15", "use": "家族归属参考入口，执行时重查，不代表企业授权"},
+    {"font": "Arial Unicode MS", "url": "https://learn.microsoft.com/en-us/typography/font-list/arial-unicode-ms", "last_checked": "2026-10-15", "use": "设计及厂商资料入口，实际使用依据待核对"},
+    {"font": "Swis721 Blk BT", "url": "https://www.myfonts.com/collections/swiss-721-rounded-font-bitstream", "last_checked": "2026-10-15", "use": "Swiss 721 家族别名核查线索，不是原字体版本或授权证明"},
+    {"font": "Bitstream", "url": "https://www.monotype.com/company", "last_checked": "2026-10-15", "use": "厂商关系入口，执行时重查"}
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "byues字体自查技能1.0"
+  short_description: "先看PDF和图片检索字体图标，CDR走企业远程CorelDRAW，保留证据与授权核查边界"
+  default_prompt: "使用 $font-icon-copyright-audit 先通过PDF和图片检索字体图标，CDR使用已授权企业远程桌面审查，保留原件并按真实证据生成风险清单和本地图文索引。"
